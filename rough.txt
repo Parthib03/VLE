@@ -1,0 +1,32 @@
+<form action="#" method="post">
+   <div>
+      <div class="one_third first">
+      <label for="dept_code">Department Code<span>*</span></label>
+      <input type="text" name="dept_code" id="dept_code" value="" size="22" required>
+   </div>
+   <div class="one_third">
+      <label for="dept_name">Department Name<span>*</span></label>
+      <input type="text" name="dept_name" id="dept_name" value="" size="22" required>
+   </div>
+
+   <div class="one_third">
+      <label for="dept_status">department Status<span>*</span></label>
+      <select id="dept_status" name="dept_status" id="dept_status" style="padding: 9px;" required>
+      <option value="ACTIVE">ACTIVE</option>
+      <option value="INACTIVE">INACTIVE</option>
+
+   </select>
+
+
+   <div class="one_third first">
+      <label>User ID<span>*</span></label>
+      <input type="text" id="user_id" name="user_id" size="22" required >
+   </div>
+
+
+   <div class = "one_third first">
+      <input type="submit" name="submit" value="Submit Form">
+      &nbsp;
+      <input type="reset" name="reset" value="Reset Form">
+   </div>
+</form>
